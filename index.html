@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <title>Fight Tournament</title>
+   </head>
+   <body>
+      <header></header>
+      <main>
+         <section class="fight__container">
+            <div class="char__container">
+               <img id="hero__img" src="assets/char3.webp" />
+               <div class="life__bar-container">
+                  <h3>Héroe</h3>
+                  <div id="hero" class="life__bar">
+                     <div class="life__bar-inner" style="width: 100%"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="char__container">
+               <img id="enemy__img" src="assets/char2.webp" />
+               <div class="life__bar-container">
+                  <h3>Enemigo</h3>
+                  <div id="enemy" class="life__bar">
+                     <div class="life__bar-inner" style="width: 100%"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <button onclick="fight()">Fight</button>
+      </main>
+
+      <script src="index.js"></script>
+   </body>
+</html>
